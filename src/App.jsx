@@ -1,13 +1,12 @@
 import { Icon } from "@iconify/react";
-import router from "./routes";
-import { RouterProvider } from "react-router";
 
 function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
-      <hr />
+      <div className="bg-gray-300 m-1 p-2 rounded">
+        App template - Vite + React + WindCSS + Iconify
+      </div>
     </>
   )
 }
